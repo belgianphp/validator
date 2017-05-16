@@ -4,7 +4,7 @@ namespace Belgian\Validator;
 
 
 
-class Hour implements IsValid 
+class Hour implements IIsValid 
 {
 
     private $_val;

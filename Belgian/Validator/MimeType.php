@@ -4,7 +4,7 @@ namespace Belgian\Validator;
 
 
 
-class MimeType implements IsValid 
+class MimeType implements IIsValid 
 {
 
     private $_val;

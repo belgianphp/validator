@@ -4,7 +4,7 @@ namespace Belgian\Validator;
 
 
 
-class MinLength implements IsValid 
+class MinLength implements IIsValid 
 {
 
     private $_val;

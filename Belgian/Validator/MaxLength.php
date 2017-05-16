@@ -4,7 +4,7 @@ namespace Belgian\Validator;
 
 
 
-class MaxLength implements IsValid 
+class MaxLength implements IIsValid 
 {
 
     private $_val;

@@ -3,7 +3,7 @@
 namespace Belgian\Validator;
 
 
-class Between implements IsValid 
+class Between implements IIsValid 
 {
 
     private $_val;
