@@ -5,7 +5,7 @@ namespace Belgian\Validator;
 
 interface IIsValid
 {
-    public function isValid();
+    public function isValid($value);
 }
 
 
