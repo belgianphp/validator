@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Between	Belgian/Validator/Between.php	/^class Between implements IIsValid $/;"	c
+DateUSA	Belgian/Validator/DateUSA.php	/^class DateUSA implements isValid $/;"	c
+Email	Belgian/Validator/Email.php	/^class Email implements isValid $/;"	c
+Hour	Belgian/Validator/Hour.php	/^class Hour implements IIsValid $/;"	c
+IIsValid	Belgian/Validator/IIsValid.php	/^interface IIsValid$/;"	i
+Ip	Belgian/Validator/Ip.php	/^class Ip implements IIsValid $/;"	c
+MaxLength	Belgian/Validator/MaxLength.php	/^class MaxLength implements IIsValid $/;"	c
+MimeType	Belgian/Validator/MimeType.php	/^class MimeType implements IIsValid $/;"	c
+MinLength	Belgian/Validator/MinLength.php	/^class MinLength implements IIsValid $/;"	c
+Url	Belgian/Validator/Url.php	/^class Url implements isValid $/;"	c
+ValidatorVo	Belgian/Validator/ValidatorVo.php	/^class ValidatorVo$/;"	c
+__construct	Belgian/Validator/Between.php	/^    public function __construct($keyMinAndMaxArr)$/;"	f
+__construct	Belgian/Validator/DateUSA.php	/^    public function __construct()$/;"	f
+__construct	Belgian/Validator/Email.php	/^    public function __construct()$/;"	f
+__construct	Belgian/Validator/Hour.php	/^    public function __construct()$/;"	f
+__construct	Belgian/Validator/Ip.php	/^    public function __construct()$/;"	f
+__construct	Belgian/Validator/MaxLength.php	/^    public function __construct($max)$/;"	f
+__construct	Belgian/Validator/MimeType.php	/^    public function __construct($mimeTypeArr)$/;"	f
+__construct	Belgian/Validator/MinLength.php	/^    public function __construct($min)$/;"	f
+__construct	Belgian/Validator/Url.php	/^    public function __construct()$/;"	f
+_field	Belgian/Validator/ValidatorVo.php	/^        $this->_field = $field;$/;"	v
+_field	Belgian/Validator/ValidatorVo.php	/^    private $_field;$/;"	v
+_getSize	Belgian/Validator/Between.php	/^    private function _getSize()$/;"	f
+_rule	Belgian/Validator/ValidatorVo.php	/^        $this->_rule = $rule;$/;"	v
+_rule	Belgian/Validator/ValidatorVo.php	/^    private $_rule;$/;"	v
+_val	Belgian/Validator/Between.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/Between.php	/^    private $_val;$/;"	v
+_val	Belgian/Validator/DateUSA.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/DateUSA.php	/^    private $_val;$/;"	v
+_val	Belgian/Validator/Email.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/Email.php	/^    private $_val;$/;"	v
+_val	Belgian/Validator/Hour.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/Hour.php	/^    private $_val;$/;"	v
+_val	Belgian/Validator/Ip.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/Ip.php	/^    private $_val;$/;"	v
+_val	Belgian/Validator/MaxLength.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/MaxLength.php	/^    private $_val;$/;"	v
+_val	Belgian/Validator/MimeType.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/MimeType.php	/^    private $_val;$/;"	v
+_val	Belgian/Validator/MinLength.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/MinLength.php	/^    private $_val;$/;"	v
+_val	Belgian/Validator/Url.php	/^        $this->_val = new ValidatorVo();$/;"	v
+_val	Belgian/Validator/Url.php	/^    private $_val;$/;"	v
+exception	Belgian/Validator/Between.php	/^        $exception = 'class %s: the key "%s" not found.';$/;"	v
+getField	Belgian/Validator/ValidatorVo.php	/^    public function getField()$/;"	f
+getRule	Belgian/Validator/ValidatorVo.php	/^    public function getRule()$/;"	f
+isDateValid	Belgian/Validator/DateUSA.php	/^            $isDateValid = checkdate($m,$d,$y);$/;"	v
+isDateValid	Belgian/Validator/DateUSA.php	/^        $isDateValid = 0;$/;"	v
+isValid	Belgian/Validator/Between.php	/^    public function isValid($field)$/;"	f
+isValid	Belgian/Validator/DateUSA.php	/^    public function isValid($field)$/;"	f
+isValid	Belgian/Validator/Email.php	/^    public function isValid($field)$/;"	f
+isValid	Belgian/Validator/Hour.php	/^    public function isValid($field)$/;"	f
+isValid	Belgian/Validator/IIsValid.php	/^    public function isValid($value);$/;"	f
+isValid	Belgian/Validator/Ip.php	/^    public function isValid($field)$/;"	f
+isValid	Belgian/Validator/MaxLength.php	/^    public function isValid($field)$/;"	f
+isValid	Belgian/Validator/MimeType.php	/^    public function isValid($fileType)$/;"	f
+isValid	Belgian/Validator/MinLength.php	/^    public function isValid($field)$/;"	f
+isValid	Belgian/Validator/Url.php	/^    public function isValid($field)$/;"	f
+num	Belgian/Validator/Between.php	/^        $num = self::_getSize();$/;"	v
+rule	Belgian/Validator/Between.php	/^        $rule = $this->_val->getRule();$/;"	v
+rule	Belgian/Validator/MaxLength.php	/^        $rule = $this->_val->getRule();$/;"	v
+rule	Belgian/Validator/MinLength.php	/^        $rule = $this->_val->getRule();$/;"	v
+setField	Belgian/Validator/ValidatorVo.php	/^    public function setField($field)$/;"	f
+setRule	Belgian/Validator/ValidatorVo.php	/^    public function setRule($rule)$/;"	f
+size	Belgian/Validator/MaxLength.php	/^        $size = mb_strlen($this->_val->getField(), 'UTF-8');$/;"	v
+size	Belgian/Validator/MinLength.php	/^        $size = mb_strlen($this->_val->getField(), 'UTF-8');$/;"	v
+val	Belgian/Validator/Between.php	/^        $val = $this->_val->getField();$/;"	v

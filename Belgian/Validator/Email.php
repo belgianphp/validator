@@ -4,7 +4,7 @@ namespace Belgian\Validator;
 
 
 
-class Email implements isValid 
+class Email implements IIsValid 
 {
 
     private $_val;

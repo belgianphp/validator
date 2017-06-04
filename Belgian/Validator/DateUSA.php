@@ -4,7 +4,7 @@ namespace Belgian\Validator;
 
 
 
-class DateUSA implements isValid 
+class DateUSA implements IIsValid 
 {
     private $_val;
 
